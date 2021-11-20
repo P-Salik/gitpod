@@ -1,4 +1,4 @@
 tasks:
   - name: Configure
-    init: curl -LO https://github.com/akhilnarang/scripts/raw/master/setup/android_build_env.sh
-    command: bash android_build_env.sh && sudo apt install tmate -y
+    init: sudo apt install tmate -y
+    command: tmate
