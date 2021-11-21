@@ -1,4 +1,4 @@
 tasks:
   - name: Configure
-    init: sudo apt install tmate -y
-    command: tmate
+    init: echo Starting!
+    command: sudo apt install tmate -y && tmate
